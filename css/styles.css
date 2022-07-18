@@ -70,6 +70,11 @@ img {
   padding: 0;
   list-style: none;
 }
+.section__list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
 .link {
   text-decoration: none;
   color: var(--text-color);
@@ -238,11 +243,6 @@ img {
 /* features */
 .features {
   padding-top: 94px;
-}
-.section__list {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
 }
 
 .features__item {
