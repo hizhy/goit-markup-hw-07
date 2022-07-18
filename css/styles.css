@@ -268,24 +268,24 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.work .title {
+.work__title {
   margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
-.work-list {
+.work__list {
   display: flex;
   /* gap: 30px;
 	justify-content: space-between; */
 }
-.w-item {
+.work__item {
   position: relative;
 }
-.w-item:not(:last-child) {
+.work__item:not(:last-child) {
   margin-right: 30px;
 }
-.w-subtitle {
+.work__subtitle {
   display: flex;
   position: absolute;
   left: 0;
