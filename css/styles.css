@@ -239,13 +239,12 @@ img {
 .features {
   padding-top: 94px;
 }
-.features__list {
+.section__list {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: center;
+  gap: 30px;
 }
-.features__item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .features__item {
   width: 270px;
 }
@@ -276,11 +275,6 @@ img {
   padding-bottom: 94px;
 }
 
-.work__list {
-  display: flex;
-  /* justify-content: space-between; */
-  gap: 30px;
-}
 .work__item {
   position: relative;
 }
@@ -316,13 +310,7 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.t-item:not(:last-child) {
-  margin-right: 30px;
-}
 
-.team-list {
-  display: flex;
-}
 .team-descr {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -373,11 +361,6 @@ img {
   padding-bottom: 94px;
 }
 
-.clients__list {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
 .clients__link {
   display: flex;
   width: 170px;
