@@ -232,44 +232,18 @@ img {
 .features {
   padding-top: 94px;
 }
-.features-list {
+.features__list {
   display: flex;
   /* justify-content: space-between; */
 }
-.f-item:not(:last-child) {
+.features__item:not(:last-child) {
   margin-right: 30px;
 }
-.f-item {
+.features__item {
   width: 270px;
 }
 
-/* оформлення іконок через псевдоелементи - початок
-.f-item::before {
-	content: "";
-	display: block;
-	height: 120px;
-	background-size: 70px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-color: var(--sec-bg-color);
-	border-radius: 4px;
-	
-}
-.icon-antenna::before {
-	background-image: url(../images/icons/antenna-1.png);
-}
-.icon-clock::before {
-	background-image: url(../images/icons/clock-1.png);
-}
-.icon-diagram::before {
-	background-image: url(../images/icons/diagram-1.png);
-}
-.icon-astronaut::before {
-	background-image: url(../images/icons/astronaut-1.png);
-}
-оформлення іконок через псевдоелементи - кінець */
-
-.features-thumb {
+.features__thumb {
   display: flex;
   width: 270px;
   height: 120px;
@@ -278,13 +252,13 @@ img {
   background-color: var(--sec-bg-color);
   border-radius: 4px;
 }
-.features .title {
+.features__title {
   margin-top: 30px;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
-.f-text {
+.features__text {
   margin-top: 10px;
   line-height: 1.71;
 }
