@@ -11,8 +11,10 @@
 @import './components/container';
 @import './components/title';
 @import './components/logo';
-@import './components/main-button';
-
+@import './components/buttons';
+@import './components/modal-window';
+@import './components/input-form';
+@import './components/socials';
 
 @import './layouts/header';
 @import './layouts/hero';
@@ -21,3 +23,4 @@
 @import './layouts/team';
 @import './layouts/clients';
 @import './layouts/footer';
+@import './layouts/portfolio';

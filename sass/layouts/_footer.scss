@@ -24,20 +24,17 @@
 }  
 
 .adrress {
-    margin-right: 70px;
-&-info {
-        font-style: normal;
-        line-height: 1.71;
-    }
+    margin-right: 70px;    
 }
 
-
+.address-info {
+    font-style: normal;
+    line-height: 1.71;
+}
 
 .address-item:not(:last-child) {
     margin-bottom: 9px;
 }
-
-
 
 .address-link {
     color: var(--white-text-color);
@@ -49,15 +46,12 @@
 
 .subscribe {
     margin-left: auto;
-}
-
-.subscribe-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.subscribe-input {
+&-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+&-input {
     display: flex;
     align-items: center;
     width: 358px;
@@ -73,16 +67,15 @@
     border-radius: 4px;
     outline: none;
 }
-
-.subscribe-button {
+&-button {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
-
 .subscribe-icon {
     fill: currentColor;
+}
 }
 
 /* -footer styles end- */

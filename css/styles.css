@@ -9,7 +9,7 @@ html {
 
 /* team socials */
 
-.socials {
+/* .socials {
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -33,11 +33,11 @@ html {
 }
 .socials-icon {
   fill: currentColor;
-}
+} */
 
 /* footer socials */
 
-.socials-f-link {
+/* .socials-f-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,112 +52,11 @@ html {
 .socials-f-link:focus {
   background-color: var(--accent-color);
   color: var(--white-text-color);
-}
-
-/* --portfolio styles-- */
-
-/* buttons styles */
-.buttons-list {
-  margin-bottom: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
-.button {
-  padding: 6px 22px;
-  color: var(--sec-text-color);
-  background-color: #f5f4fa;
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  text-align: center;
-
-  transition: background-color var(--anim), color var(--anim), box-shadow var(--anim);
-}
-.button:hover,
-.button:focus {
-  background-color: var(--accent-color);
-  color: var(--white-text-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-.l-btn:not(:last-child) {
-  margin-right: 8px;
-}
-
-/* project styles */
-.projects-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin: -15px;
-}
-.project {
-  width: 370px;
-  margin: 15px;
-}
-.p-box {
-  position: relative;
-  overflow: hidden;
-}
-.p-overlay {
-  display: flex;
-  position: absolute;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  transform: translateY(100%);
-  transition: transform var(--anim);
-  background-color: rgba(33, 150, 243, 0.9);
-}
-.text-overlay {
-  width: 322px;
-  color: var(--white-text-color);
-  font-size: 18px;
-  line-height: 1.56;
-}
-.project-link:hover .p-overlay {
-  transform: translateY(0);
-}
-.project-link {
-  display: block;
-
-  transition: box-shadow var(--anim);
-}
-.project-link:hover,
-.project-link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-.project-descr {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 24px;
-  border: 1px solid #eeeeee;
-  text-align: left;
-}
-.project-title {
-  margin-bottom: 4px;
-  color: var(--sec-text-color);
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-.p-text {
-  font-size: 16px;
-  color: var(--text-color);
-  line-height: 1.88;
-}
+} */
 
 /* modal window */
-.backdrop {
+
+/* .backdrop {
   position: fixed;
   left: 0;
   top: 0;
@@ -211,10 +110,11 @@ html {
 }
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.5);
-}
+} */
 
 /* Form inside */
-.form-title {
+
+/* .form-title {
   width: 448px;
   margin-top: 40px;
   margin-bottom: 30px;
@@ -232,7 +132,6 @@ html {
 }
 .box-element {
   position: relative;
-  /* outline: 1px solid lawngreen; */
 }
 .box-element:not(:last-child) {
   margin-bottom: 28px;
@@ -245,7 +144,6 @@ html {
   font-size: 12px;
   letter-spacing: 0.01em;
   line-height: 1.17;
-  /* outline: 1px solid orange; */
 }
 .icon-input {
   position: absolute;
@@ -265,10 +163,8 @@ html {
   font-size: 14px;
   cursor: pointer;
   transition: border var(--anim);
-  /* outline: 1px solid red; */
 }
 
-/* .input-field:hover, */
 .input-field:focus {
   border: 1px solid var(--accent-color);
   outline: none;
@@ -320,7 +216,4 @@ html {
   display: block;
   top: 491px;
   left: calc(50% - 100px);
-  /* margin-top: 30px;
-	margin-right: auto;
-	margin-left: auto; */
-}
+} */
