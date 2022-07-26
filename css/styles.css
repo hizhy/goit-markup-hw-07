@@ -7,6 +7,8 @@ html {
   box-sizing: inherit;
 }
 
+/* team socials */
+
 .socials {
   display: flex;
   justify-content: center;
@@ -33,48 +35,7 @@ html {
   fill: currentColor;
 }
 
-/* footer */
-
-.footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: var(--hero-bg-color);
-}
-.down-info {
-  display: flex;
-  align-items: baseline;
-  /* justify-content: space-between; */
-}
-.adrress-part {
-  margin-right: 70px;
-}
-.adr-item:not(:last-child) {
-  margin-bottom: 9px;
-}
-.footer .logo {
-  padding: 0;
-  margin-right: 0;
-  margin-bottom: 20px;
-}
-
-.address {
-  font-style: normal;
-  line-height: 1.71;
-}
-.adr-link {
-  color: var(--white-text-color);
-}
-.cont-link {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-subtitle {
-  font-weight: 700;
-  line-height: 1.14;
-  color: var(--white-text-color);
-  text-transform: uppercase;
-  margin-bottom: 20px;
-}
+/* footer socials */
 
 .socials-f-link {
   display: flex;
@@ -92,41 +53,6 @@ html {
   background-color: var(--accent-color);
   color: var(--white-text-color);
 }
-
-.subscribe-part {
-  margin-left: auto;
-}
-.subs-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.subs-input {
-  display: flex;
-  align-items: center;
-  width: 358px;
-  height: 50px;
-  padding: 0 16px;
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 16px;
-  line-height: 1.25;
-  margin-right: 12px;
-  background-color: inherit;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  outline: none;
-}
-.subs-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-.subs-icon {
-  fill: currentColor;
-}
-/* -footer styles end- */
 
 /* --portfolio styles-- */
 
