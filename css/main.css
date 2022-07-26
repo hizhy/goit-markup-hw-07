@@ -156,13 +156,11 @@ body.no-scroll {
   font-weight: 500;
   border: 1px solid #ececec;
 }
-
 .header .logo {
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 93px;
 }
-
 .header-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -170,6 +168,18 @@ body.no-scroll {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.header-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+.header-item {
+  position: relative;
+}
+.header-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .header-nav {
@@ -180,13 +190,11 @@ body.no-scroll {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .header-nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
 .header-nav .link {
   display: block;
   padding-top: 32px;
@@ -195,19 +203,8 @@ body.no-scroll {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-
-.header-item {
-  position: relative;
-}
-.header-item:hover, .header-item:focus {
+.header-nav .link:hover, .header-nav .link:focus {
   color: var(--accent-color);
-}
-.header-item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.contact:not(:last-child) {
-  margin-right: 50px;
 }
 
 .contact {
@@ -222,12 +219,17 @@ body.no-scroll {
       -ms-flex-align: center;
           align-items: center;
 }
-
-.header-group {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: auto;
+.contact:not(:last-child) {
+  margin-right: 50px;
+}
+.contact-icon {
+  fill: var(--text-color);
+  margin-right: 10px;
+  -webkit-transition: fill var(--anim);
+  transition: fill var(--anim);
+}
+.link:hover .contact-icon, .link:focus .contact-icon {
+  fill: currentColor;
 }
 
 .link.current {
@@ -242,14 +244,4 @@ body.no-scroll {
   bottom: -1px;
   border-radius: 2px;
   background-color: var(--accent-color);
-}
-
-.contact-icon {
-  fill: var(--text-color);
-  margin-right: 10px;
-  -webkit-transition: fill var(--anim);
-  transition: fill var(--anim);
-}
-.link:hover .contact-icon, .link:focus .contact-icon {
-  fill: currentColor;
 }/*# sourceMappingURL=main.css.map */
