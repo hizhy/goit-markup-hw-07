@@ -23,21 +23,19 @@
     }
 }  
 
-.adrress {
-    margin-right: 70px;    
-}
+.address {
+    margin-right: 70px;
 
-.address-info {
-    font-style: normal;
-    line-height: 1.71;
-}
-
-.address-item:not(:last-child) {
+&-info {
+        font-style: normal;
+        line-height: 1.71;
+    }
+&-item:not(:last-child) {
     margin-bottom: 9px;
 }
-
-.address-link {
+&-link {
     color: var(--white-text-color);
+}
 }
 
 .cont-link {

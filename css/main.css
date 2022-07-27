@@ -706,19 +706,16 @@ body.no-scroll {
   margin-bottom: 20px;
 }
 
-.adrress {
+.address {
   margin-right: 70px;
 }
-
 .address-info {
   font-style: normal;
   line-height: 1.71;
 }
-
 .address-item:not(:last-child) {
   margin-bottom: 9px;
 }
-
 .address-link {
   color: var(--white-text-color);
 }
